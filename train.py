@@ -161,6 +161,7 @@ def train_and_evaluate(model: nn.Module,
         utils.plot_all_epoch(ND_summary, print_params + '_ND', location=params.plot_dir)
         utils.plot_all_epoch(loss_summary, print_params + '_loss', location=params.plot_dir)
 
+ ## if __name__='__main__' is used when we donot want to use the program under it in some files.
 
 if __name__ == '__main__':
 
